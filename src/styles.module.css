@@ -1,9 +1,36 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.multiColorProgressbar {
+  position: relative;
+}
+.indicator {
+  background: red;
+  display: inline-block;
+  height: 1.5rem;
+  position: absolute;
+  width: 1.5rem;
+  /* top: -0.3rem; */
+  top: 2rem;
+  transform: translateX(-50%);
+}
+.indicator::before {
+  border-bottom: 0.75rem solid red;
+  border-left: 0.75rem solid transparent;
+  border-right: 0.75rem solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -0.75rem;
+  width: 0;
+}
+.stepValueWrapper {
+  position: relative;
+  font-size: 0.5rem;
+  top: 0.75rem
+}
+.stepValue {
+  position: absolute;
+  transform: translateX(-50%);
+  color: #404040;
 }
