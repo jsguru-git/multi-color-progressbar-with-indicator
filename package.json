@@ -4,7 +4,7 @@
   "description": "multiple color progressbar with indicator",
   "author": "jsguru-git",
   "license": "MIT",
-  "repository": "jsguru-git/multi-color-progressbar-with-indicator",
+  "repository": "https://github.com/jsguru-git/multi-color-progressbar-with-indicator",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
