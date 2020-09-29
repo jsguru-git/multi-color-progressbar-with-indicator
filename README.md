@@ -15,12 +15,12 @@ npm install --save multi-color-progressbar-with-indicator
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'multi-color-progressbar-with-indicator'
+import MultiColorProgressbar from 'multi-color-progressbar-with-indicator'
 import 'multi-color-progressbar-with-indicator/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MultiColorProgressbar />
   }
 }
 ```

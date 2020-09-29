@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'multi-color-progressbar-with-indicator'
+import { MultiColorProgressbar } from 'multi-color-progressbar-with-indicator'
 import 'multi-color-progressbar-with-indicator/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <MultiColorProgressbar text="Create React Library Example 😄" />
 }
 
 export default App
